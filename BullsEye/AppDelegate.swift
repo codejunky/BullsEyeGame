@@ -1,11 +1,4 @@
 //
-//  AppDelegate.swift
-//  BullsEye
-//
-//  Created by Oussama Bouguerne on 11/22/16.
-//  Copyright © 2016 MetaWorks Consulting. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
