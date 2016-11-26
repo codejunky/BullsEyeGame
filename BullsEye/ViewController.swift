@@ -1,4 +1,5 @@
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController {
 
@@ -85,6 +86,13 @@ class ViewController: UIViewController {
     round = 0
     startNewRound()
     updateLabels()
+    
+    let transition = CATransition()
+    transition.type = kCATransitionFade
+    transition.duration = 1
+    transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+    
+    view.layer.add(transition, forKey: nil)
   }
   
   func startNewRound() {
